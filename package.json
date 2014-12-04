@@ -1,23 +1,22 @@
 {
-    "name": "grunt-svg-modify",
-    "description": "Resize and color svg-images",
-    "version": "0.0.6",
-    "homepage": "https://github.com/yoksel/grunt-svg-modify",
+    "name": "grunt-svg-modify-silent",
+    "description": "Resize and color svg-images, duplicate of grunt-svg-modify, just without the open task as default. all credit goes to yoksel@yandex.ru",
+    "version": "0.0.3",
+    "homepage": "https://github.com/mintshrm/grunt-svg-modify",
     "author": {
-        "name": "yoksel",
-        "email": "yoksel@yandex.ru",
-        "url": "http://css.yoksel.ru"
+        "name": "mintshrm",
+        "email": "mintshrm@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/yoksel/grunt-svg-modify.git"
+        "url": "git://github.com/mintshrm/grunt-svg-modify.git"
     },
     "bugs": {
-        "url": "https://github.com/yoksel/grunt-svg-modify/issues"
+        "url": "https://github.com/mintshrm/grunt-svg-modify/issues"
     },
     "licenses": [{
         "type": "MIT",
-        "url": "https://github.com/yoksel/grunt-svg-modify/blob/master/LICENSE-MIT"
+        "url": "https://github.com/mintshrm/grunt-svg-modify/blob/master/LICENSE-MIT"
     }],
     "engines": {
         "node": ">= 0.8.0"
@@ -38,7 +37,6 @@
     ],
     "dependencies": {
         "svg-modify": "~0.0.5",
-        "mustache": "~0.8.2",
-        "open": "0.0.5"
+        "mustache": "~0.8.2"
     }
 }

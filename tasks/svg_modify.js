@@ -10,7 +10,7 @@
 
 var path = require('path'),
     svgmodify = require("svg-modify"),
-    mustache = require("mustache"),
+    mustache = require("mustache")
 
 module.exports = function(grunt) {
 
