@@ -11,7 +11,6 @@
 var path = require('path'),
     svgmodify = require("svg-modify"),
     mustache = require("mustache"),
-    open = require("open");
 
 module.exports = function(grunt) {
 
@@ -64,7 +63,6 @@ module.exports = function(grunt) {
             var outputIndex = mustache.render(indexTemplate, indexData);
             grunt.file.write(destIndex, outputIndex, "utf8");
 
-            open(destIndex);
 
         }
 
